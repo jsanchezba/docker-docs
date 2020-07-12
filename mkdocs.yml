@@ -43,17 +43,7 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/squidfunk
-    - icon: fontawesome/brands/gitter
-      link: https://gitter.im/squidfunk/mkdocs-material
-    - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/r/squidfunk/mkdocs-material/
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/squidfunk
-    - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/squidfunk/
-    - icon: fontawesome/brands/instagram
-      link: https://instagram.com/squidfunk
+      link: https://github.com/jsanchezba
 
 # Extensions
 markdown_extensions:
@@ -95,6 +85,7 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Home: index.md
+  - Inicio: index.md
   - Docker:
-    - Test: docker/test.md
+    - Contenedor de portainer: docker/portainer.md
+    - Contenedor de Gitea: docker/gitea.md
